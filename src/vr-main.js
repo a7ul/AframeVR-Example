@@ -16,7 +16,7 @@ setInterval(() => {
 
 camera[0].addEventListener('componentchanged', function(evt) {
     if (!flag) {
-        if (evt.detail.name = 'position') {
+        if (evt.detail.name === 'position') {
             let {x, y, z} = evt.detail.newData;
             arrow.attr('position', x + ' ' + 0 + ' ' + z);
         }
