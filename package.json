@@ -31,8 +31,6 @@
   },
   "dependencies": {
     "aframe": "github:aframevr/aframe",
-    "aframe-extras": "^1.7.0",
-    "aframe-obj-loader-component": "^0.2.0",
     "jquery": "^2.2.3"
   }
 }
